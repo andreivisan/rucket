@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/images/rucket.png" alt="Rucket">
+  <img src="./docs/images/rucket.png" alt="Rucket" width="50%">
 </p>
 
 # Rucket 
