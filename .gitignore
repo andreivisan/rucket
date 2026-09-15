@@ -1,0 +1,25 @@
+# Rust build output and rustfmt backup files
+target/
+**/*.rs.bk
+
+# Keep Cargo.lock tracked for reproducible dependency versions.
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code: keep useful project configuration shareable
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+
+# Editor temporary files
+*~
+*.swp
+*.swo
