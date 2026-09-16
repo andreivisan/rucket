@@ -2,10 +2,7 @@ pub mod encoding;
 
 use encoding::cobs;
 
-pub fn test_my_shit() {
-    cobs::encode();
-}
-
+pub fn test_my_shit() {}
 
 #[cfg(test)]
 mod tests {
