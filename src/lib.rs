@@ -1,7 +1,6 @@
 pub mod encoding;
 pub mod framing;
 
-
 pub fn test_my_shit() {}
 
 #[cfg(test)]

@@ -45,7 +45,7 @@ impl Encoder for Cobs {
 
         while read_index < in_size {
             let code = input[read_index];
-            if code == 0 || read_index + usize::from(code) > in_size { 
+            if code == 0 || read_index + usize::from(code) > in_size {
                 return Err(DecodingError::MalformedInput);
             }
             read_index += 1;
@@ -53,7 +53,7 @@ impl Encoder for Cobs {
                 let byte = input[read_index];
                 if byte == 0 {
                     return Err(DecodingError::MalformedInput);
-                } 
+                }
                 let write_slot = decoded
                     .get_mut(write_index)
                     .ok_or(DecodingError::OutputBufferTooSmall)?;
