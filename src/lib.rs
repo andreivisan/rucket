@@ -1,6 +1,6 @@
 pub mod encoding;
+pub mod framing;
 
-use encoding::cobs;
 
 pub fn test_my_shit() {}
 
