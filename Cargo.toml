@@ -3,4 +3,8 @@ name = "rucket"
 version = "0.1.0"
 edition = "2024"
 
+[workspace]
+members = ["crates/rucket-store"]
+resolver = "3"
+
 [dependencies]
